@@ -1,3 +1,11 @@
-.alert-info {
-    background-color: crimson;
+.nav-link{
+    color: whitesmoke;
+}
+
+.nav-item1 {
+    font-weight: bold;
+}
+
+*{
+    font-family: Montserrat;
 }
