@@ -1,3 +1,35 @@
-.alert-info {
-    background-color: crimson;
+body {
+    background-color: indianred;
+}
+.display-1 {
+    background-color: indianred;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: "Verdana";
+}
+
+
+#navigationsleiste {
+    background-color: burlywood;
+    font-family: "Jumble";
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 5px;
+    border-color: darkslategray;
+    border-radius: 20px;
+    }
+
+.flex-sm-fill text-sm-center nav-link link-dark {
+    font-family: Ebrima;
+    font-size: 20px;
+    color: darkslategray;
+
+}
+a:hover {
+    background-color: aliceblue;
+}
+
+.backgroundM {
+    object-position: center;
+    background-color: aliceblue;
 }
