@@ -7,8 +7,15 @@
 <body>
 <!-- Asia -->
 <div id="map-asia">
+  <img src="asia.png" width="500" height="400" usemap="#asia">
+  <map name="asia">
+    <!-- mühselig von Hand definierte, klickbare Flächen auf der Karte -->
+    <!-- coords sind für rect x1, y1, x2, y2 -->
+    <area shape="rect" coords="225,150,375,250" href="china.html" alt="China">
+    <area shape="rect" coords="420,140,450,200" href="japan.html" alt="Japan">
+  </map>
   <ul class="asia">
-    <li class="asia1"><a href="#China">China</a></li>
+    <li class="asia1"><a href="china.html">China</a></li>
     <li class="asia2"><a href="#Japan">Japan</a></li>
     <li class="asia3"><a href="#Korea">Korea</a></li>
     <li class="asia4"><a href="#Vietnam">Vietnam</a></li>
