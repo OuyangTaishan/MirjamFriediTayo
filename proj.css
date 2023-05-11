@@ -44,13 +44,12 @@ a:hover {
 .backgroundM {
     object-position: center;
     background-color: aliceblue;}
-.overlayX {
+.overlay {
     position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    top: 0;
     color: #f1f1f1;
-    width: 100%;
+    width: 20%;
+    height: 20%;
     transition: .5s ease;
     opacity:0;
     color: white;
@@ -58,7 +57,7 @@ a:hover {
     padding: 20px;
     text-align: center;
 }
-.eu16:hover .overlayX {
+li:hover .overlay {
     opacity: 1;
 }
 
