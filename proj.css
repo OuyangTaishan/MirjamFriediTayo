@@ -1,5 +1,5 @@
 .nav-link{
-    color: whitesmoke;
+    color: black;
 }
 
 .nav-item1 {
@@ -11,10 +11,10 @@
 }
 
 body {
-    background-color: indianred;
+    background-color: skyblue;
 }
 .display-1 {
-    background-color: indianred;
+    background-color: skyblue;
     padding-left: 30px;
     padding-bottom: 10px;
     font-family: "Verdana";
@@ -60,4 +60,24 @@ a:hover {
 }
 .eu16:hover .overlayX {
     opacity: 1;
+}
+
+.fab {
+    color: black;
+    padding: 3px;
+}
+
+.nameinsta{
+    color: black;
+    font-weight: initial;
+    font-size: 10px;
+    text-decoration: none;
+}
+.footer{
+    background-color: transparent;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #ccc;
 }
