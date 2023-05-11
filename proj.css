@@ -8,4 +8,54 @@
 
 *{
     font-family: Montserrat;
+body {
+    background-color: indianred;
+}
+.display-1 {
+    background-color: indianred;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: "Verdana";
+}
+
+
+#navigationsleiste {
+    background-color: burlywood;
+    font-family: "Jumble";
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 5px;
+    border-color: darkslategray;
+    border-radius: 20px;
+    }
+
+.flex-sm-fill text-sm-center nav-link link-dark {
+    font-family: Ebrima;
+    font-size: 20px;
+    color: darkslategray;
+
+}
+a:hover {
+    background-color: aliceblue;
+}
+
+.backgroundM {
+    object-position: center;
+    background-color: aliceblue;}
+.overlayX {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.eu16:hover .overlayX {
+    opacity: 1;
 }
