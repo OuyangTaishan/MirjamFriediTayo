@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>North America</title>
+</head>
+<body>
+<!-- North America -->
+<div id="map-north-america">
+  <ul class="north">
+    <img src="north_america.png" width="550" height="600">
+    <li class="nam1"><a href="#USA">USA</a></li>
+    <li class="nam2"><a href="#Canada">Canada</a></li>
+    <li class="nam3"><a href="#Mexico">Mexico</a></li>
+  </ul>
+</div>
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- CSSMap SCRIPT -->
+<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    // CSSMap;
+    $("#map-north-america").CSSMap({
+      "size": 960
+    });
+
+  });
+</script>
+</body>
+</html>
