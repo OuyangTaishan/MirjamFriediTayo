@@ -8,12 +8,9 @@
     <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
     <link rel="stylesheet" href="proj.css">
 <style>
-    body{
-        background-color: indianred;
-    }
     footer {
         background-color: transparent;
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         padding: 20px;
@@ -50,6 +47,26 @@
         </ul>
     </div>
     <!-- BOOTSTRAP -->
+
+
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            // CSSMap;
+            $("#map-continents").CSSMap({
+                "size": 1450
+            });
+
+        });
+    </script>
+</body>
 
 <footer class="nav justify-content-center">
     <ul class="nav flex-column">
@@ -125,22 +142,4 @@
     </li>
 
 </footer>
-
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- jQuery -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- SCRIPT -->
-    <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-
-            // CSSMap;
-            $("#map-continents").CSSMap({
-                "size": 1450
-            });
-
-        });
-    </script>
-</body>
 </html>
